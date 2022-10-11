@@ -1,0 +1,193 @@
+/****************************Anchor Selectors****************************/
+
+a {
+    color: #11999E;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/****************************Body Selectors****************************/
+
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    text-align: center;
+    background-color: #def1f1;
+    color: #40514E;
+}
+
+
+/****************************Heading Selectors****************************/
+
+h1 {
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625em;
+    margin: 50px auto 0 auto;
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+}
+
+/****************************Paragraph Container****************************/
+
+
+/****************************Image Container****************************/
+
+.profilePic {
+    border-radius: 100%;
+    height: 10%;
+    width: 10%;
+    margin: 10px;
+}
+
+.skillsPic {
+    border-radius: 100%;
+    float: left;
+    height: 25%;
+    margin: 0 30px 0 0;
+    width: 25%;
+}
+
+.curryPic {
+    border-radius: 100%;
+    float: right;
+    height: 25%;
+    margin: 0 0 0 30px;
+    width: 25%;
+}
+
+/****************************Top Container****************************/
+
+.top-container {
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+
+.bottomCloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.topCloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+/****************************Middle Container****************************/
+
+.middle-container {
+    position: relative;
+    padding-top: 100px;
+    margin: 60px auto 90px auto; 
+}
+
+.disclaimerText{
+    margin: 100px auto 100px auto;
+    width: 50%;
+}
+
+.skill-row {
+    line-height: 2;
+    margin: 100px auto 100px auto; /* By assigning auto to the left and right margins of an element, they take up the available horizontal space in the element's container equally – and thus the element gets centered */
+    text-align: left;
+    width: 50%;
+}
+
+.skillTextOne {
+    color: #40514E;
+}
+
+
+
+/****************************Bottom Container****************************/
+
+.bottom-container {
+    background-color: #66BFBF;
+    height: 150px;
+    padding: 50px 0 20px;
+}
+
+.footer-linkLink {
+    position: absolute;
+    left: 25%;
+    font-weight: 700;
+    color: #40514E;
+}
+
+.footer-linkTwitter{
+    position: absolute;
+    left: 50%;
+    font-weight: 700;
+    color: #40514E;
+}
+
+.footer-linkWebsite {
+    position: absolute;
+    left: 75%;
+    font-weight: 700;
+    color: #40514E;
+}
+
+.copyright {
+    color: white;
+    font-size: smaller;
+}
+
+/****************************Button Selectors****************************/
+
+.btn {
+    background: #66BFBF;
+    background-image: -webkit-linear-gradient(top, #66BFBF, #2980b9);
+    background-image: -moz-linear-gradient(top, #66BFBF, #2980b9);
+    background-image: -ms-linear-gradient(top, #66BFBF, #2980b9);
+    background-image: -o-linear-gradient(top, #66BFBF, #2980b9);
+    background-image: linear-gradient(to bottom, #66BFBF, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 100px auto 100px auto;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+
+
+/****************************HR Selectors****************************/
+
+hr {
+    border-style: dotted none none;
+    border-color: grey;
+    border-width: 6px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    width: 5%;
+  }
+
